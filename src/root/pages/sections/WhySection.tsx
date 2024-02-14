@@ -8,9 +8,9 @@ interface CardPropsType {
 
 const Card = ({ image, heading, paragraph }: CardPropsType) => {
   return (
-    <div className=" border max-w-[450px] sm:max-w-60 flex flex-col items-center text-center gap-2">
+    <div className=" max-w-[450px] sm:max-w-60 flex flex-col items-center text-center gap-2">
       <div className="flex flex-col items-center h-48">
-        <div className=" border h-28 w-48">
+        <div className=" h-28 w-48">
           <img src={image} className=" w-full h-full object-contain" />
         </div>
         <h2 className=" mt-2 text-primary font-medium text-xl">{heading}</h2>
