@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <div className=" bg-white shadow-lg">
       <div className=" w-full py-5 px-2 flex justify-between items-center max-w-[1300px] mx-auto">
-        <div className=" h-9">
+        <div className=" h-6 sm:h-9">
           <a href="/">
             <img className=" h-full" src={StarKidLogo} alt="star kid logo" />
           </a>

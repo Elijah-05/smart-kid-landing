@@ -10,7 +10,7 @@ const HeroBanner = () => {
           alt="child studying"
         />
       </div>
-      <div className=" absolute w-full sm:w-auto max-w-[1350px] flex flex-col justify-center items-center border sm:right-[20%] top-[350px] ">
+      <div className=" absolute w-full sm:w-auto max-w-[1350px] flex flex-col justify-center items-center sm:right-[20%] top-[350px] ">
         <div className=" text-4xl sm:text-6xl text-center font-medium text-white">
           <h1 className=" ">1 to 1 Online</h1>
           <h1 className=" ">Native English</h1>
