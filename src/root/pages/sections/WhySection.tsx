@@ -1,4 +1,3 @@
-import { Cambridge, Teacher } from "../../../assets";
 import whyData from "../../../data";
 
 interface CardPropsType {
@@ -9,7 +8,7 @@ interface CardPropsType {
 
 const Card = ({ image, heading, paragraph }: CardPropsType) => {
   return (
-    <div className=" border max-w-60 flex flex-col items-center text-center gap-2">
+    <div className=" border max-w-[450px] sm:max-w-60 flex flex-col items-center text-center gap-2">
       <div className="flex flex-col items-center h-48">
         <div className=" border h-28 w-48">
           <img src={image} className=" w-full h-full object-contain" />
@@ -31,7 +30,7 @@ const WhySection = () => {
         <p className=" text-center font-light">
           With so many online English learning platforms, why choose Starkid?
         </p>
-        <div className=" mt-8 flex items justify-evenly max-w-[1350px] mx-auto">
+        <div className=" mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4 place-items-center max-w-[1350px] mx-auto">
           {whyData.map((data) => {
             return (
               <Card

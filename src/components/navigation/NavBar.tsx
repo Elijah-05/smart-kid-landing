@@ -1,4 +1,5 @@
 import { StarKidLogo } from "../../assets";
+import { IoMenu } from "react-icons/io5";
 
 const NavBar = () => {
   return (
@@ -9,7 +10,7 @@ const NavBar = () => {
             <img className=" h-full" src={StarKidLogo} alt="star kid logo" />
           </a>
         </div>
-        <ul className=" flex gap-6 items-center ">
+        <ul className=" hidden sm:flex gap-6 items-center ">
           <li className=" hover:text-primary duration-300">
             <a href="" className="">
               about us
@@ -31,6 +32,9 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
+        <div className=" sm:hidden">
+          <IoMenu className="text-3xl" />
+        </div>
       </div>
     </div>
   );

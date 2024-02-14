@@ -13,7 +13,7 @@ const PartnerSection = () => {
         <h1 className=" text-center text-4xl font-medium text-gray-700">
           Our Partners
         </h1>
-        <div className=" mt-8 flex items-center justify-between max-w-3xl mx-auto">
+        <div className=" mt-8 grid grid-cols-3 sm:grid-cols-5 place-items-center gap-6 items-center justify-between max-w-3xl mx-auto">
           <div className=" h-10 ">
             <img className="h-full" src={Partner1} alt="" />
           </div>
